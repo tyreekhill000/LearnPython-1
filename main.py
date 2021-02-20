@@ -1,72 +1,35 @@
-#if else
-# if condition:
-#     do some code
-#  else:
-#     do some code
+import random
+print(random.uniform(10,100))
+#fruits=input("Enter the fruit names followed by comma and space").split(", ")
+#len(fruits)
+fruits=["prav", "pra", "pr", "p"]
+print(fruits[random.randint(0,len(fruits)-1)])
+print(fruits)
 
-# print("Welcome to tthe roller coaster")
-# int_height=int(input("what is your height\n")) # converting Strint to int
-# #Note the collon used after if conditon
-# if (int_height>120):  # checking if the height is greater than 120 cm
-#     print("You are allowed") # Note the Indentation 
-# else: #Note the collon used after if conditon
-#     print("You are not allowed")# Note the Indentation 
+#print(random.choice(fruits))
 
-#Odd or even 
-# print("Odd or Even")
-# number=int(input ("Enter the number "))
-# if(number%2==0):
-#     print(f"{number} is even number")
-# else:
-#     print(f"{number} is odd number")
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+dirty_dozen=[fruits,vegetables]
+print(dirty_dozen[0][0])
+emoji1=['😀','😀','😃']
+emoji2=['😁','😆','😅']
+emoji3=['😂','🤣','😇']
+emoji=[emoji1,emoji2,emoji3]
 
-#nested if else
+row1 = ["⬜️","⬜️","⬜️"]
+row2 = ["⬜️","⬜️","⬜️"]
+row3 = ["⬜️","⬜️","⬜️"]
+map=[row1,row2,row3]
 
-# if condition:
-#     if condition:
-#       do some code
-#     else:
-#       do some code 
-# else:
-#     do some code 
+print(f"{row1}\n{row2}\n{row3}")
+number= input("choose the number")
+int_first_number=int(number[0])
+int_second_number=int(number[1])
+map[int_first_number-1][int_second_number-1]=emoji[int_first_number-1][int_second_number-1]
+print(f"{map[0]}\n{map[1]}\n{map[2]}")
 
-# print("Welcome to tthe roller coaster")
-# int_height=int(input("what is your height\n")) # converting Strint to int
-# int_age=int(input("What is your age\n"))
-# #Note the collon used after if conditon
-# if (int_height>120):  # checking if the height is greater than 120 cm
-#     print("You are allowed") # Note the Indentation 
-#     if(int_age >18):
-#         print("price == 10")
-#     else:
-#          print("price == 5")
-# else: #Note the collon used after if conditon
-#     print("You are not allowed")# Note the Indentation 
-
-   # if /elif/else
-
-   # if condition:
-#     if condition:
-#       do some code
-#    elif condition:
-#       do some code
-#    else:
-#       do some code 
-# else:
-#     do some code 
+ 
 
 
-print("Welcome to the roller coaster")
-int_height=int(input("what is your height\n")) # converting Strint to int
-int_age=int(input("What is your age\n"))
-#Note the collon used after if conditon
-if (int_height>120):  # checking if the height is greater than 120 cm
-    print("You are allowed") # Note the Indentation 
-    if(int_age <12 ): #Note the collon used after if conditon .. Use Conditional operator >=
-        print("price == 5")
-    elif(int_age<=18): #Note the collon used after elif conditon .. Used Conditional operator >= and<
-        print("price == 8")
-    else:
-         print("price == 10")
-else: #Note the collon used after if conditon
-    print("You are not allowed")# Note the Indentation
+
