@@ -1,1 +1,2 @@
-from randomTests import headortail
+import randomTests.rockpaperscissor
+
