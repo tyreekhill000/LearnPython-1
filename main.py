@@ -1,2 +1,3 @@
-import randomTests.rockpaperscissor
+import loop.Fizzbuzz
+
 
