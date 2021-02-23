@@ -1,3 +1,3 @@
-import loop.Fizzbuzz
+import loop.PasswordGenerator
 
 
