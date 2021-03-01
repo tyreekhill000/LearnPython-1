@@ -1,0 +1,12 @@
+
+def three_steps():
+    move()
+    move()
+    move()
+def turn_around():
+    turn_left()
+    turn_left()
+three_steps()
+turn_around()
+three_steps()
+

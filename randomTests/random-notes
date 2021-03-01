@@ -1,0 +1,27 @@
+import random --
+MODULE -something which you will import in another python file
+
+random is a module 
+randmon.py
+def random():
+#sdfsf
+dsfs
+
+def randint(first, second) :
+#sdfsf
+dsfs
+
+
+random.randint(1, 1000)
+random.random() -->returns random value from 0.0000 -0.9999
+1-5
+random.random() *5
+
+
+https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
+
+https://docs.python.org/3/tutorial/datastructures.html?highlight=data%20structures
+
+
+PSEDUORANDOM
+https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
