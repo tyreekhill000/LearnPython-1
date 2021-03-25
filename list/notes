@@ -1,3 +1,16 @@
-counties=['Somerset','kent','Essex','Sussex','Leicestershire','Derbyshire','Durham','Hampshire','Middlesex','Northamptonshire','Surrey','Warwickshire']
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+fruits[-1] = "Melons"
+fruits.append("Lemons")
+print(fruits)
 
-index
+
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"] #list of dirty_furits
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"] #list of vegetables
+junk_food=["noodles","fried_rice","pasta","burger","pizza"]
+ 
+dirty_dozen = [fruits, vegetables,junk_food] #list of list
+print(dirty_dozen [2][4])
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+print(fruits[-5])
