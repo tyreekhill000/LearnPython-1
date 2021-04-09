@@ -16,7 +16,7 @@ def heighest_bidder(bidding_record):
 
 while to_contiune:
   name=input ("What is your name\n")
-  bid_amount=int(input("What is the bid amount\n"))
+  bid_amount=int(input("What is the bid amount Rs \n"))
   bids[name]=bid_amount
   if (input("Are there any other bidders\n")=='yes'):
     clear()
