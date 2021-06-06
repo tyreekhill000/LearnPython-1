@@ -9,6 +9,46 @@ fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries
 vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"] #list of vegetables
 junk_food=["noodles","fried_rice","pasta","burger","pizza"]
  
+data structure - how a set of siimilar data is stored
+list is a data structure
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+above  data is stored in list called fruits, and a order is maintained based on most pesticides used.
+first[0]->"Strawberries",
+first[1]->"Nectarines"
+first[-1]->"Pears"
+first[-2]- >" "Cherries"
+fruits.append("pineapple") will add pineapple as the last element
+to identify the number of elements in a list
+len(fruits)
+
+input= 'Engineering comprises of many courses.'
+ 
+# splits at space
+print(input.split())
+
+Output:
+
+['Engineering', 'comprises', 'of', 'many', 'courses.']
+
+
+input = "hello, Engineering and Medical, are two different disciplines"
+ 
+result = input.split(",")
+ 
+print(result)
+Output:
+['hello', 'Engineering and Medical', 'are two different disciplines']
+
+
+
+
+
+
+
+
+
+
 dirty_dozen = [fruits, vegetables,junk_food] #list of list
 print(dirty_dozen [2][4])
 

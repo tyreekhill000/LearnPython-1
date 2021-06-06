@@ -3,3 +3,16 @@
 # print(random.random())
 # print(random.randrange(0, 1000, 100))
 # print(random.uniform(1, 5))
+
+
+Randomization - really important when you are playing game. 
+ex-Tetris game
+Random Process are non-deterministic since they are impossible to determine  in advance
+computer machines-deterministic Randomization .Their operation is predictable and repeatable.
+whole bunch of maths -Psuedo Randomization
+sampling of big set of deterministic random numbers 
+Python uses Mersenne_Twister to generate random number .
+https://en.wikipedia.org/wiki/Mersenne_Twister
+https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
+
+

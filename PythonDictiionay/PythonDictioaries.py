@@ -49,7 +49,7 @@ travel_log = {
   "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visits": 5},
 }
 
-#print (travel_log["France"]["total_visits"])
+print (travel_log["France"]["cities_visited"])
 
 #Nesting Dictionaries in Lists
 
