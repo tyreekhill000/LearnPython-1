@@ -1,0 +1,14 @@
+Scope-Analogy
+
+Apple tree within your garden- who can pickup
+
+Global Scope-throug out the code
+Local Scope -available within the function
+Block scope-There is no block scope in python
+
+Namespace ,Local -apply for function as well
+
+global keyword ->to modify global scope variable.. avoid doing this 
+
+
+

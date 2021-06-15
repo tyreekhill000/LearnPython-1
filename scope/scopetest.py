@@ -10,7 +10,7 @@ increase_enemies()
 print(f"enemies outside function: {enemies}")
 
 
-#Local Scope
+#Local Scope -> exi
 # def drink_potion():
 #   potion_strength=2
 #   print(potion_strength)
