@@ -1,0 +1,39 @@
+receptionist -Receptoin
+waiter-Waiter
+chef-Chef
+cleaner-Clener
+
+waiter-Waiter
+has - 
+
+plates_in_hands=True
+table_serving=[3,5,6]
+
+does:
+def takeOrder():
+def makePayment()
+
+
+You just be suprevisor
+
+CLASS - BluePrint
+
+Waiter():
+plates_in_hands=True
+table_serving=[3,5,6]
+
+def takeOrder():
+def makePayment()
+
+Object-instance out of that Class
+
+Tim, John -both as waiter attributs and methods
+
+tim=Waiter()
+tim.plates_in_hands
+tim.takeOrder()
+
+
+
+
+

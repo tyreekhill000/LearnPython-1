@@ -67,3 +67,13 @@ travel_log = [
 ]
 # print(travel_log[0]["country"])
 # print(travel_log[0]["cities_visited"][0])
+
+
+travel_log={
+  "France": {"cities_visited":
+    ["Paris", "Lille", "Dijon"],
+    "number_of_times":12},
+  
+  "India":["Delhi,Bombay"]
+}
+print(travel_log["France"]["cities_visited"][0])

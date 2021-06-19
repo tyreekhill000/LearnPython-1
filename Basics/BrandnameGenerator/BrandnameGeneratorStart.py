@@ -7,5 +7,4 @@
 #4. Combine the name of their city and pet and show them their band name.
 
 #5. Make sure the input cursor shows on a new line 
-#city
-#"Newyork"
+
