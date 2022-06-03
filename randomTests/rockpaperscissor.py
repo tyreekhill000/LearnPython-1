@@ -46,7 +46,7 @@ else:
         print("You win")
     elif(user_chosen_type == paper and computer_chosen_type==rock ):
          print("You win")
-    elif((user_chosen_type == paper and computer_chosen_type==paper) or (user_chosen_type == rock and                     computer_chosen_type==rock) or (user_chosen_type == scissor and computer_chosen_type==scissor) ):
+    elif((user_chosen_type == paper and computer_chosen_type==paper) or (user_chosen_type == rock and computer_chosen_type==rock) or (user_chosen_type == scissor and computer_chosen_type==scissor) ):
          print("draw")
     else:
         print("computter wins")

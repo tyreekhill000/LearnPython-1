@@ -5,8 +5,10 @@ b = input("b: ")
 
 ####################################
 #Write your code below this line 👇
-
-
+c = a
+d = b
+a = d
+b = c
 
 
 #Write your code above this line 👆

@@ -1,4 +1,4 @@
-#My first proram
+#My first program
 
 print("Hello World");
 print("what is your name");

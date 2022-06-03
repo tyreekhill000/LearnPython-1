@@ -4,7 +4,7 @@ print (art)
 print("Welcome to the Number Guessing Game!")
 print ("I'm thinking of a number between 1 and 100.")
 number=random.randrange(1,100)
-print(f"The number is  {number}")
+
 difficulty_type=input("Choose a difficulty. Type 'easy' or 'hard': ")
 if difficulty_type =='easy':
   chances_left=10
